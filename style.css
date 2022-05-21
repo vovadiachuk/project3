@@ -1,0 +1,48 @@
+h1{
+    border: 3px solid green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    border-left-style: double;
+}
+h2{
+    text-transform: uppercase;
+    text-align: right;
+    border: 3px solid red;
+    background: linear-gradient(to right, yellow,green);
+}
+.toy {
+    color: red;
+
+}
+.toy li:first-child {
+    color: pink;
+}
+.toy li:nth-child(3){
+    color: blue;
+    font-size: 20px;
+
+}
+.span1{
+    color: gold;
+}
+.fire img{
+    display: block;
+}
+.fire {
+     background: pink;
+     border-top: 3px solid black;
+     border-bottom: 3px dashed black;
+}
+.fire img:nth-child(2){
+    opacity: 0.5;
+}
+.go {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.go input[type="text"]{
+    border: 1px solid palevioletred;
+    box-shadow: 2px 2px 5px black;
+}
+
